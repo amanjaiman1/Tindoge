@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+body {
+    font-family: "Montserrat";
+}
+
+
+/* Section-title */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 8%;
+}
+
+.title-image {
+    width: 18%;
+    margin-left: 10%;
+    padding-top: 2%;
+    transform: rotate(17deg);
+    position: absolute;
+    z-index: 1;
+}
+
+.container {
+    width: calc(100% + 30px);
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: -30px;
+    overflow: hidden;
+}
+
+.navbar {
+    font-size: 18px;
+    padding: 0 0 4.5rem;
+}
+
+
+/* .navbar:hover {
+    color: aqua;
+} */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.download-button {
+    margin: 5% 3% 5%;
+}
+
+.mad {
+    background-image: "apple.svg";
+}
+
+.hero {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    letter-spacing: 6px;
+    line-height: 1.3;
+    padding-top: 100px;
+}
+
+
+/* Section-Title END */
+
+
+/* Section-Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #e2fafb;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    transition: .7s;
+}
+
+
+/* Section-Features END */
+
+
+/* Section-Testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+.most {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Section-Testimonials END */
+
+
+/* Section-Press  */
+
+#press {
+    background-color: #f9cbc4;
+    color: #fff;
+    text-align: center;
+    padding: 10 0;
+    padding-bottom: 3%;
+    word-spacing: 200px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px;
+}
+
+
+/* Section-Press END */
+
+
+/* Section-Pricing */
+
+#pricing {
+    background-color: #ff4c68;
+}
+
+.firstline {
+    text-align: center;
+    padding: 30px;
+}
+
+.card-body {
+    background-color: #00101f;
+    margin: 0% 0%;
+}
+
+.card-header h3 {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+}
+
+.card-body h2 {
+    color: rgb(107, 209, 148);
+    font-size: 40px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-body p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15%;
+    color: rgb(155, 243, 243);
+    word-spacing: 2px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.pricing-coloumn {
+    padding: 3% 2%;
+}
+
+.most3 {
+    margin-left: -20%;
+}
+
+.most4 {
+    margin-right: -20%;
+}
+
+
+/* Section-Pricing END */
+
+
+/* SECTION-cta  */
+
+#cta {
+    background-color: #cae5ff;
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* SECTION-cta END */
+
+
+/* Section-Footer */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 2%;
+    padding-top: 2%;
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 2px;
+}
+
+
+/* Section-Footer END */
+
+
+/* RESPONSIVE CSS TAG */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        width: 55%;
+    }
+    .most {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    .most2 {
+        display: none;
+    }
+    #press {
+        background-color: #e2fafb;
+        color: #fff;
+        text-align: center;
+        padding: 10 0;
+        padding-bottom: 3%;
+        word-spacing: 200px;
+    }
+    .press-logo {
+        width: 50%;
+        padding-bottom: 15%;
+    }
+    #cta {
+        background-color: #a0d1ff;
+        padding: 10%;
+        padding-top: 10%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .button1 {
+        margin: 40px;
+    }
+}
